@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: stock-service
+
+server:
+  port: 8302
+
+eureka:
+  client:
+    registerWithEureka: false   #False because this project is not a eureka client
+    fetchRegistry: false
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
